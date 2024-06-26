@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply bg-dark font-mono text-xl text-white
+}
+button{
+    @apply p-2 m-2  rounded-xl shadow-md shadow-black bg-violet-700 hover:bg-violet-400
+}
+h2{
+    @apply p-2 m-2 font-bold shadow-md shadow-white
+}
